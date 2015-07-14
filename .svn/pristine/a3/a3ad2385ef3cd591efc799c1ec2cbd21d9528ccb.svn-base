@@ -1,0 +1,29 @@
+
+  <div class="container">
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+                                <div class="logo">
+                    <a href="http://52.11.212.236:8080/tidels/">
+
+                    </a>
+                </div>
+        
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li ng-show="!user.authenticated"><a href="{{httpPath}}#/login" menu-item>Log In</a></li>
+            <li ng-show="!user.authenticated"><a href="{{httpPath}}#/signup" menu-item>Sign Up</a></li>
+            <li ng-show="user.authenticated"><a href="{{httpPath}}#/user-profile">Welcome {{ user.first_name }}!</a></li>
+            <li ng-show="user.authenticated"><a href="#"  ua-logout>Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    

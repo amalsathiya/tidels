@@ -1,0 +1,21 @@
+
+<div id="container">
+    <div class="copyrights">
+        <address> &copy; 2014 tidels.com. All Rights Reserved</address>
+    </div>
+</div>
+
+
+ 
+
+  <script src="/tidels/resources/lib/angular/angular-route.min.js"></script>
+  <script src="/tidels/resources/js/app.js"></script>
+  <script src="/tidels/resources/js/services.js"></script>
+  <script src="/tidels/resources/js/controllers.js"></script>
+  <script src="/tidels/resources/js/filters.js"></script>
+  <script src="/tidels/resources/js/directives.js"></script>
+
+
+  
+  
+ 
